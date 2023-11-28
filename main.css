@@ -1,0 +1,114 @@
+body {
+
+    background-color: turquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    }
+    
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: maroon;
+        color: white;
+        font-size: 24px;
+        letter-spacing: 3px;
+        text-align: center;
+        border: solid white 3px;
+    } 
+    
+    h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+        font-size: 50px;
+        letter-spacing: 5px;
+        text-align: center;
+        border: solid yellow 3px;
+    } /* It is here where I have changed the title. I have expertly used the font Verdana, increased the size (expertly), and aligned in the centre, like an expert */
+    
+    h2 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+        font-size: 50px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: white;
+        font-size: 50px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+    img {
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      } /* It is here where I expertly adjusted the features of my pug images. I created border, wow! I made drop shadow, wow! And I those pugs look like perfect gentlemen.*/
+    
+    li.odd{
+        background-color: black;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+          list-style-type: none;
+    }
+    
+    li.kevin{
+        background-color: white;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+    
+    table{
+        background-color: greenyellow;
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 500px;
+        margin-left: 550px;
+    }
+    li.elena{
+        background-color: greenyellow;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;    
+        list-style-type: none;
+    }
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+      .example {background: red;}
+    }
+    
+    li.jason{
+        background-color: white;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;    
+        list-style-type: none;
+    }
+
+    li.muppetlinks{
+        background-color: yellowgreen;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;    
+        list-style-type: none;
+    }
+    .even {
+        color: blueviolet   
+    }
+
+    .odd {
+        color: yellow
+    }
+    
